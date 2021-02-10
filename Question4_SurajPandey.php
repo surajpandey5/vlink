@@ -9,7 +9,7 @@ function NumberOfDivisors($x): string
     }
     $numberOfDivisors = count($divisors);
     $sumOfDivisors = array_sum($divisors);
-    return "The Number of Divisors is ".$numberOfDivisors.".\nThe Sum of Divisors is ".$sumOfDivisors. "\n";
+    return "The Number of lucky divisors is ".$numberOfDivisors.".\nThe Sum of Divisors is ".$sumOfDivisors. "\n";
 }
 
 $divisors = NumberOfDivisors ( 147 );
